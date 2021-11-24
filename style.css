@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 100px;
+  
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    font-family: Montserrat;
+    padding: 5px;
+    cursor: pointer;
+    width: 90px;
+    top: 70px;
+    transition: 0.4s;
+}
+
+body{
+    background-image:linear-gradient(80deg, rgb(28, 180, 87), blueviolet);
+}
+
+button:hover{
+    background-color: brown;
+}
+
+
